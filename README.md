@@ -1,17 +1,8 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# Hello-React-Front-End
+# Hello World React Front-End
 
-> Implement a connection between a Ruby on Rails back-end and React front-end.
-
-## Built With
-
-- React
-- React-Router
-## Live Demo (if available)
-
-[Not Available](https://livedemo.com)
-
+> This Hello World project implements an UI on React/Redux that will be fetch data from the Rails API through the two repos aprroach for web development.
 
 ## Getting Started
 
@@ -28,13 +19,13 @@ To get a local copy up and running follow these simple example steps.
 First, you must clone this repository locally running this command:
 
 ```
-git clone git@github.com:marurevi/hello-react-front-end.git
+$ git clone git@github.com:fabianofrank/hello-rails-backend.git
 ```
 
 and navigate to the cloned directory:
 
 ```
-cd hello-react-front-end
+cd hello-react-frontend
 ```
 
 ### Install
@@ -56,21 +47,37 @@ You can get the app running locally by opening a local server:
 ```
 npm start
 ```
-Then you also have to clone and run the server of [hello-rails-back-end](https://github.com/marurevi/hello-rails-back-end) repository to get the expect result.
-```
-## Authors
-👤 **Mariana Revilla Lérida**
-- GitHub: [@marurevi](https://github.com/marurevi)
-- Twitter: [@MaruRevilla](https://twitter.com/MaruRevilla)
-- LinkedIn: [Mariana-Revilla-Lérida](https://linkedin.com/in/mariana-revilla-l%C3%A9rida-a12aba143)
+
+## Built With
+
+ - React
+
+## Author
+
+👤 **Fabiano Frank**
+
+- GitHub: [@fabianofrank](https://github.com/fabianofrank)
+- Twitter: [@fabianofrankk](https://twitter.com/fabianofrankk)
+- LinkedIn: [@fabianofrank](https://www.linkedin.com/in/fabianofrank/)
+
 ## 🤝 Contributing
+
 Contributions, issues, and feature requests are welcome!
-Feel free to check the [issues page](../../issues/).
+
+Feel free to check the [issues page](https://github.com/fabianofrank/rails-blog-app/issues).
+
 ## Show your support
+
 Give a ⭐️ if you like this project!
+
 ## Acknowledgments
-- Hat tip to anyone whose code was used
-- Inspiration
-- etc
+
+- Inspiration 💘
+- Microverse program ⚡
+- My standup team 😍
+- My family's support 🙌
+- MicroBros 😜
+
 ## 📝 License
-This project is [MIT](./MIT.md) licensed.![](https://img.shields.io/badge/Microverse-blueviolet)
+
+This project is [MIT](https://github.com/fabianofrank/rails-blog-app/blob/develop/LICENSE.md) licensed.
