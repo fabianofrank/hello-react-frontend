@@ -9,13 +9,13 @@ const Greeting = () => {
 
   const config = {
     headers: {
-      'Access-Control-Allow-Origin': 'http://localhost:3000',
+      'Access-Control-Allow-Origin': 'http://localhost:3001',
       'Content-Type': 'application/json',
     },
   };
 
   async function fetchMessage() {
-    await axios.get('http://localhost:3000/api/greetings', config).then((response) => {
+    await axios.get('http://localhost:3000/greetings', config).then((response) => {
       dispatch(getMessage(response.data.message));
     });
   }
@@ -27,7 +27,6 @@ const Greeting = () => {
   return (
     <div>
       <h1>{message}</h1>
-      <button onClick={() => fetchMessage()}>Generate greeting message</button>
     </div>
   );
 };
